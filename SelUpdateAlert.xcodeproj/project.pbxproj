@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDAFC6DB202AFBE000BB9CC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAFC6DA202AFBE000BB9CC2 /* AppDelegate.m */; };
+		EDAFC6E3202AFBE000BB9CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDAFC6E2202AFBE000BB9CC2 /* Assets.xcassets */; };
+		EDAFC6E6202AFBE000BB9CC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAFC6E4202AFBE000BB9CC2 /* LaunchScreen.storyboard */; };
+		EDAFC6E9202AFBE000BB9CC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAFC6E8202AFBE000BB9CC2 /* main.m */; };
+		EDAFC6FC202AFFAF00BB9CC2 /* SELAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAFC6FB202AFFAF00BB9CC2 /* SELAlertViewController.m */; };
+		EDAFC6FF202AFFE600BB9CC2 /* SELUpdateAlertConst.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAFC6FE202AFFE600BB9CC2 /* SELUpdateAlertConst.m */; };
+		EDAFC702202B3F9A00BB9CC2 /* SELUpdateAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAFC701202B3F9A00BB9CC2 /* SELUpdateAlert.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDAFC6D6202AFBE000BB9CC2 /* SelUpdateAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelUpdateAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAFC6D9202AFBE000BB9CC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDAFC6DA202AFBE000BB9CC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDAFC6E2202AFBE000BB9CC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDAFC6E5202AFBE000BB9CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDAFC6E7202AFBE000BB9CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAFC6E8202AFBE000BB9CC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDAFC6FA202AFFAF00BB9CC2 /* SELAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SELAlertViewController.h; sourceTree = "<group>"; };
+		EDAFC6FB202AFFAF00BB9CC2 /* SELAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SELAlertViewController.m; sourceTree = "<group>"; };
+		EDAFC6FD202AFFE600BB9CC2 /* SELUpdateAlertConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SELUpdateAlertConst.h; sourceTree = "<group>"; };
+		EDAFC6FE202AFFE600BB9CC2 /* SELUpdateAlertConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SELUpdateAlertConst.m; sourceTree = "<group>"; };
+		EDAFC700202B3F9A00BB9CC2 /* SELUpdateAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SELUpdateAlert.h; sourceTree = "<group>"; };
+		EDAFC701202B3F9A00BB9CC2 /* SELUpdateAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SELUpdateAlert.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDAFC6D3202AFBE000BB9CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDAFC6CD202AFBE000BB9CC2 = {
+			isa = PBXGroup;
+			children = (
+				EDAFC6D8202AFBE000BB9CC2 /* SelUpdateAlert */,
+				EDAFC6D7202AFBE000BB9CC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDAFC6D7202AFBE000BB9CC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDAFC6D6202AFBE000BB9CC2 /* SelUpdateAlert.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDAFC6D8202AFBE000BB9CC2 /* SelUpdateAlert */ = {
+			isa = PBXGroup;
+			children = (
+				EDAFC6D9202AFBE000BB9CC2 /* AppDelegate.h */,
+				EDAFC6DA202AFBE000BB9CC2 /* AppDelegate.m */,
+				EDAFC6F0202AFC3400BB9CC2 /* Main */,
+				EDAFC6EF202AFC2200BB9CC2 /* UpdateAlert */,
+				EDAFC6E2202AFBE000BB9CC2 /* Assets.xcassets */,
+				EDAFC6E4202AFBE000BB9CC2 /* LaunchScreen.storyboard */,
+				EDAFC6E7202AFBE000BB9CC2 /* Info.plist */,
+				EDAFC6E8202AFBE000BB9CC2 /* main.m */,
+			);
+			path = SelUpdateAlert;
+			sourceTree = "<group>";
+		};
+		EDAFC6EF202AFC2200BB9CC2 /* UpdateAlert */ = {
+			isa = PBXGroup;
+			children = (
+				EDAFC6FD202AFFE600BB9CC2 /* SELUpdateAlertConst.h */,
+				EDAFC6FE202AFFE600BB9CC2 /* SELUpdateAlertConst.m */,
+				EDAFC700202B3F9A00BB9CC2 /* SELUpdateAlert.h */,
+				EDAFC701202B3F9A00BB9CC2 /* SELUpdateAlert.m */,
+			);
+			path = UpdateAlert;
+			sourceTree = "<group>";
+		};
+		EDAFC6F0202AFC3400BB9CC2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EDAFC6FA202AFFAF00BB9CC2 /* SELAlertViewController.h */,
+				EDAFC6FB202AFFAF00BB9CC2 /* SELAlertViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDAFC6D5202AFBE000BB9CC2 /* SelUpdateAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAFC6EC202AFBE000BB9CC2 /* Build configuration list for PBXNativeTarget "SelUpdateAlert" */;
+			buildPhases = (
+				EDAFC6D2202AFBE000BB9CC2 /* Sources */,
+				EDAFC6D3202AFBE000BB9CC2 /* Frameworks */,
+				EDAFC6D4202AFBE000BB9CC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelUpdateAlert;
+			productName = SelUpdateAlert;
+			productReference = EDAFC6D6202AFBE000BB9CC2 /* SelUpdateAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDAFC6CE202AFBE000BB9CC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = selwyn;
+				TargetAttributes = {
+					EDAFC6D5202AFBE000BB9CC2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EDAFC6D1202AFBE000BB9CC2 /* Build configuration list for PBXProject "SelUpdateAlert" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDAFC6CD202AFBE000BB9CC2;
+			productRefGroup = EDAFC6D7202AFBE000BB9CC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDAFC6D5202AFBE000BB9CC2 /* SelUpdateAlert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDAFC6D4202AFBE000BB9CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAFC6E6202AFBE000BB9CC2 /* LaunchScreen.storyboard in Resources */,
+				EDAFC6E3202AFBE000BB9CC2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDAFC6D2202AFBE000BB9CC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAFC6E9202AFBE000BB9CC2 /* main.m in Sources */,
+				EDAFC6DB202AFBE000BB9CC2 /* AppDelegate.m in Sources */,
+				EDAFC702202B3F9A00BB9CC2 /* SELUpdateAlert.m in Sources */,
+				EDAFC6FF202AFFE600BB9CC2 /* SELUpdateAlertConst.m in Sources */,
+				EDAFC6FC202AFFAF00BB9CC2 /* SELAlertViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDAFC6E4202AFBE000BB9CC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDAFC6E5202AFBE000BB9CC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDAFC6EA202AFBE000BB9CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDAFC6EB202AFBE000BB9CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDAFC6ED202AFBE000BB9CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28XRZ273MD;
+				INFOPLIST_FILE = SelUpdateAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = selwynbee.SelUpdateAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EDAFC6EE202AFBE000BB9CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28XRZ273MD;
+				INFOPLIST_FILE = SelUpdateAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = selwynbee.SelUpdateAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDAFC6D1202AFBE000BB9CC2 /* Build configuration list for PBXProject "SelUpdateAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAFC6EA202AFBE000BB9CC2 /* Debug */,
+				EDAFC6EB202AFBE000BB9CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDAFC6EC202AFBE000BB9CC2 /* Build configuration list for PBXNativeTarget "SelUpdateAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAFC6ED202AFBE000BB9CC2 /* Debug */,
+				EDAFC6EE202AFBE000BB9CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDAFC6CE202AFBE000BB9CC2 /* Project object */;
+}
