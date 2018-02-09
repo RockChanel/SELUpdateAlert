@@ -1,6 +1,8 @@
 # SELUpdateAlert
 快捷添加版本更新提示
 
+简书地址：https://www.jianshu.com/p/3f92dda8f85e
+
 ![image](https://github.com/RockChanel/SELUpdateAlert/blob/master/SELUpdateAlert.gif)
 
 一句话快捷添加版本更新提示
